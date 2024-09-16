@@ -33,7 +33,10 @@ Este projeto implementa uma blockchain básica utilizando `Node.js` e `LevelDB` 
 4. Principais Rotas 
 
    GET /height: Obter a altura da blockchain
+   
    GET /chain: Ver a blockchain completa
+   
    POST /addblock: Adicionar um novo bloco
+
    GET /singleBlock?SingleB= <número_do_bloco>: Obter um bloco específico
    
